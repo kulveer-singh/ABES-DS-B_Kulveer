@@ -4,6 +4,19 @@
     
 </head>
 <body>
-    
+    <p id="Kul"></p>
+    <script>
+        class Car{
+            constructor(name,year)
+            {
+                this.name=name;
+                this.year=year;
+            }
+        }
+
+        const myCar1=new Car('audi',2025);
+        const myCar2=new Car('ford',2025);
+        document.getElementById("Kul").innerHTML=myCar1.name;
+    </script>
 </body>
 </html>
